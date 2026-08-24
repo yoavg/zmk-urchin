@@ -19,9 +19,9 @@ manifest:
       import: app/west.yml
     - name: urchin-zmk-module
       remote: duckyb
-      revision: v0.2
+      revision: main
     - name: nice-view-gem
       remote: m165437
-      revision: v0.2
+      revision: v0.3.0
   self:
     path: config

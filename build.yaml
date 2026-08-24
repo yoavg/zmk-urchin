@@ -13,7 +13,6 @@
 #
 ---
 include:
- include:
   - board: nice_nano
     shield: urchin_left nice_view_adapter  nice_view_gem
     snippet: studio-rpc-usb-uart

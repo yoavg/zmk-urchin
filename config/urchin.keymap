@@ -45,10 +45,10 @@
 		default_layer {
 			display-name = "Base";
 			bindings = <
-            &lt 4 Q      &kp W        &kp E         &kp R        &kp T               &kp Y      &kp U         &kp I            &kp O          &lt 3 P    
+            &lt 3 Q      &kp W        &kp E         &kp R        &kp T               &kp Y      &kp U         &kp I            &kp O          &lt 3 P    
             &lt 2 A      &kp S        &kp D         &kp F        &kp G               &kp H      &kp J         &kp K            &kp L          &lt 2 SPACE
             &mt RSHFT TAB   &mt LCTRL Z   &mt LALT X   &mt LWIN C  &lt 1 V	     &lt 1 B    &mt RWIN N   &mt RALT M  &mt RCTL COMMA   &mt RSHFT DOT
-							           											&none  &lt 1 SPACE   		&lt 1 SPACE &none
+			    &kp ESC  &lt 1 SPACE   		&lt 1 SPACE &mt 2
 			>;
 		};
 		fn1_layer {
@@ -67,15 +67,15 @@
             &kp DEL    &kp W     &kp UNDER &kp CARET  &kp LBKT            &kp RBKT     &kp C_VOL_DN  &kp C_VOL_UP &kp C_MUTE    &kp BSPC  
             &kp ESC    &kp DQT   &kp EXCL  &kp QMARK  &kp LPAR            &kp LEFT     &kp DOWN      &kp UP       &kp RIGHT     &kp SPACE  
             &kp LSHFT  &kp LCTRL &kp LALT  &kp LWIN   &kp LSHFT           &kp LS(LEFT) &kp LS(DOWN)  &kp LS(UP)   &kp LS(RIGHT) &mt LSHFT ENTER      
-						&none &kp RSHFT &kp RSHFT &none
+						&mt 4 &kp RSHFT &kp RSHFT &none
 			>;
 		};
 		// Numbers and high frequency symbols
 		fn3_layer {
 			display-name = "layer3";
 			bindings = <
-            &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &kp C_VOL_DN		   &kp C_VOL_UP   &kp F9   &kp F10   &kp F11   &kp F12   
-            &bt BT_SEL 4   &bt BT_CLR     &out OUT_BLE   &out OUT_USB   &kp C_PREV		   &kp C_NEXT     &kp F5   &kp F6    &kp F7    &kp F8    
+            &none  &none   &none    &none &kp C_VOL_DN		   &kp C_VOL_UP   &kp F9   &kp F10   &kp F11   &kp F12   
+            &none   &none     &none   &none    &kp C_PREV		   &kp C_NEXT     &kp F5   &kp F6    &kp F7    &kp F8    
             &kp LWIN       &kp LALT       &kp LCTRL      &kp LSHFT      &kp C_PP		   &kp C_MUTE     &kp F1   &kp F2    &kp F3    &kp F4        
 						&none &none &none &none
 			>;
@@ -85,9 +85,9 @@
 		fn4_layer {
 			display-name = "layer4";
 			bindings = <
-            &none   &none   &none   &none    &none   &none   &none   &none   &none   &none  
-            &none   &none   &none   &none    &none   &none   &none   &none   &none   &none  
-            &none   &none   &none   &none    &none   &none   &none   &none   &none   &none      
+            &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &kp C_VOL_DN		   &kp C_VOL_UP   &kp F9   &kp F10   &kp F11   &kp F12   
+            &bt BT_SEL 4   &bt BT_CLR     &out OUT_BLE   &out OUT_USB   &bootloader		   &kp C_NEXT     &kp F5   &kp F6    &kp F7    &kp F8    
+            &kp LWIN       &kp LALT       &kp LCTRL      &kp LSHFT      &kp C_PP		   &kp C_MUTE     &kp F1   &kp F2    &kp F3    &kp F4        
 						&none &none &none &none
 			>;
 		};

@@ -64,7 +64,7 @@
 		fn2_layer {
 			display-name = "layer2";
 			bindings = <
-            &kp DEL    &kp C_PP	  &kp C_PREV &none C_NEXT &kp BRI_UP          &none        &kp C_VOL_DN  &kp C_VOL_UP &kp C_MUTE    &kp BSPC
+            &kp DEL    &kp C_PP	  &kp C_PREV &kp C_NEXT   &kp BRI_UP          &none        &kp C_VOL_DN  &kp C_VOL_UP &kp C_MUTE    &kp BSPC
             &kp ESC    &kp LSHFT  &mo 3      &none        &kp BRI_DN          &kp LEFT     &kp DOWN      &kp UP       &kp RIGHT     &kp SPACE
             &kp LSHFT  &kp LCTRL  &kp LALT   &kp LWIN     &kp LSHFT           &kp LS(LEFT) &kp LS(DOWN)  &kp LS(UP)   &kp LS(RIGHT) &mt LSHFT ENTER
 					     &mo 5        &kp RSHFT           &kp RSHFT    &none
